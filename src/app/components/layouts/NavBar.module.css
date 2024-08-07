@@ -1,0 +1,56 @@
+.btn_login {
+    margin-right: 10px;
+    position: relative;
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.btn_login::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #007bff;
+    transition: width 0.3s;
+}
+
+.btn_login:hover {
+    color: #007bff;
+}
+
+.btn_login:hover::after {
+    width: 100%;
+}
+
+.linkCustom {
+    position: relative;
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s;
+    margin-right: 5px;
+    padding: 0;
+}
+
+.linkCustom::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #007bff;
+    transition: width 0.3s;
+}
+
+.linkCustom:hover {
+    color: #007bff;
+}
+
+.linkCustom:hover::after {
+    width: 100%;
+}
